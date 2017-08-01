@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bed",
+  "pattern": [
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:hay_block"
+    },
+    "X": 
+      {
+        "item": "minecraft:planks",
+        "data": 32767
+      }
+  },
+  "result": {
+    "item": "minecraft:bed",
+    "data": 4
+  }
+}

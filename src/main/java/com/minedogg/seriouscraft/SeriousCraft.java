@@ -1,14 +1,18 @@
 package com.minedogg.seriouscraft;
 
 
+import com.minedogg.seriouscraft.handlers.ItemHandler;
 import com.minedogg.seriouscraft.proxy.CommonProxy;
 
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
 //import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = SeriousCraft.MODID, name=SeriousCraft.NAME, version = SeriousCraft.VERSION)
 public class SeriousCraft
@@ -35,6 +39,8 @@ public class SeriousCraft
     public void init(FMLInitializationEvent event)
     {
         System.out.println("\n!!!!!!!!!!!!!!!!!!!!!!!\n<< --- --- INIT --- --->>\n!!!!!!!!!!!!!!!!!!!!!!!");
+        GameRegistry.addSmelting(Items.ROTTEN_FLESH, new ItemStack(Items.BONE, 1), 0.1f);
+        GameRegistry.addSmelting(ItemHandler.sc_steel, new ItemStack(ItemHandler.sc_steel_ingot, 1), 0.1f);
         proxy.init();    
         
     }

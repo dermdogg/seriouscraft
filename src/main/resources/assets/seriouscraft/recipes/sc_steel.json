@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "CIC",
+    "ICI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "C": {
+      "item": "seriouscraft:sc_carbon"
+    }
+  },
+  "result": {
+    "item": "seriouscraft:sc_steel"
+  }
+}

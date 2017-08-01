@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:cobblestone"
+    },
+    "C": {
+       "item": "minecraft:coal",
+        "data": 32767
+    }
+  },
+  "result": {
+    "item": "seriouscraft:sc_carbon",
+     "count" : 54
+  }
+}
