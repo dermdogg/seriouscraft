@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "seriouscraft:items/sc_steel_ingot"
+    }
+}

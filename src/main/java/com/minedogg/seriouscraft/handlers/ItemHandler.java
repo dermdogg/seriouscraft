@@ -19,6 +19,7 @@ public class ItemHandler
 {
 	public static Item sc_steel = new ModItem("sc_steel",CreativeTabs.MATERIALS,64);
 	public static Item sc_carbon = new ModItem("sc_carbon",CreativeTabs.MATERIALS,64);
+	public static Item sc_steel_ingot = new ModItem("sc_steel_ingot",CreativeTabs.MATERIALS,64);
 	
 	public static void init() 
 	{
@@ -33,8 +34,10 @@ public class ItemHandler
 		System.out.println("#SC - registering "+sc_steel.getUnlocalizedName());
 		registerRender(sc_steel);
 		System.out.println("#SC - registering "+sc_carbon.getUnlocalizedName());
-		//registerRender(sc_carbon);
+		registerRender(sc_carbon);
 		System.out.println("#SC - registering renders done");
+		System.out.println("#SC - registering "+sc_steel.getUnlocalizedName());
+		registerRender(sc_steel_ingot);
 	}
 	
 	public static void registerRender(Item item)
@@ -51,6 +54,8 @@ public class ItemHandler
 		event.getRegistry().register(sc_steel);
 		System.out.println("#SC - registering "+sc_carbon.getUnlocalizedName());
 		event.getRegistry().register(sc_carbon);
+		System.out.println("#SC - registering "+sc_steel_ingot.getUnlocalizedName());
+		event.getRegistry().register(sc_steel_ingot);
 		System.out.println("#SC - " + event + " - registering items done");
 	}
 }
