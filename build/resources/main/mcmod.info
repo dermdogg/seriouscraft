@@ -1,0 +1,12 @@
+[{
+  "modid": "seriouscraft",
+  "name": "SERiOUSCRAFT",
+  "description": "This is not the mod you are looking for!",
+  "version": "0.0.0.1",
+  "mcversion": "1.12",
+  "logoFile": "assets/seriouscraft/textures/logo.png",
+  "url": "minecraftforge.net",
+  "updateJSON": "minecraftforge.net/versions.json",
+  "authorList": ["minedogg"],
+  "credits": "I'd like to thank my mother and father."
+}]

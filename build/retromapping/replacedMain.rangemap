@@ -1,0 +1,271 @@
+Symbol range map extraction starting
+Processing 10 files
+startProcessing "com\minedogg\seriouscraft\SeriousCraft.java" md5: a2d04818ccf17bc4beff21ad21595fb0
+@|com\minedogg\seriouscraft\SeriousCraft.java|8|33|com.minedogg.seriouscraft|package|com.minedogg.seriouscraft|(file)
+Class Start: com.minedogg.seriouscraft.SeriousCraft
+   @|com\minedogg\seriouscraft\SeriousCraft.java|427|430|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\minedogg\seriouscraft\SeriousCraft.java|431|436|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\minedogg\seriouscraft\SeriousCraft.java|439|451|SeriousCraft|class|com.minedogg.seriouscraft.SeriousCraft
+   @|com\minedogg\seriouscraft\SeriousCraft.java|452|457|MODID|field|com.minedogg.seriouscraft.SeriousCraft|MODID
+   @|com\minedogg\seriouscraft\SeriousCraft.java|459|463|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\minedogg\seriouscraft\SeriousCraft.java|464|476|SeriousCraft|class|com.minedogg.seriouscraft.SeriousCraft
+   @|com\minedogg\seriouscraft\SeriousCraft.java|477|481|NAME|field|com.minedogg.seriouscraft.SeriousCraft|NAME
+   @|com\minedogg\seriouscraft\SeriousCraft.java|483|490|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\minedogg\seriouscraft\SeriousCraft.java|493|505|SeriousCraft|class|com.minedogg.seriouscraft.SeriousCraft
+   @|com\minedogg\seriouscraft\SeriousCraft.java|506|513|VERSION|field|com.minedogg.seriouscraft.SeriousCraft|VERSION
+   @|com\minedogg\seriouscraft\SeriousCraft.java|528|540|SeriousCraft|class|com.minedogg.seriouscraft.SeriousCraft
+   @|com\minedogg\seriouscraft\SeriousCraft.java|567|573|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|567|573|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|574|579|MODID|field|com.minedogg.seriouscraft.SeriousCraft|MODID|
+   @|com\minedogg\seriouscraft\SeriousCraft.java|622|628|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|622|628|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|629|633|NAME|field|com.minedogg.seriouscraft.SeriousCraft|NAME|
+   @|com\minedogg\seriouscraft\SeriousCraft.java|676|682|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|676|682|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|683|690|VERSION|field|com.minedogg.seriouscraft.SeriousCraft|VERSION|
+   @|com\minedogg\seriouscraft\SeriousCraft.java|728|734|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|728|734|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|735|747|CLIENT_PROXY|field|com.minedogg.seriouscraft.SeriousCraft|CLIENT_PROXY|
+   @|com\minedogg\seriouscraft\SeriousCraft.java|821|827|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|821|827|String|class|java.lang.String
+   @|com\minedogg\seriouscraft\SeriousCraft.java|828|840|SERVER_PROXY|field|com.minedogg.seriouscraft.SeriousCraft|SERVER_PROXY|
+   @|com\minedogg\seriouscraft\SeriousCraft.java|1009|1020|CommonProxy|class|com.minedogg.seriouscraft.proxy.CommonProxy
+   @|com\minedogg\seriouscraft\SeriousCraft.java|904|914|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\minedogg\seriouscraft\SeriousCraft.java|915|925|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\minedogg\seriouscraft\SeriousCraft.java|926|938|SeriousCraft|class|com.minedogg.seriouscraft.SeriousCraft
+   @|com\minedogg\seriouscraft\SeriousCraft.java|939|951|CLIENT_PROXY|field|com.minedogg.seriouscraft.SeriousCraft|CLIENT_PROXY
+   @|com\minedogg\seriouscraft\SeriousCraft.java|953|963|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\minedogg\seriouscraft\SeriousCraft.java|964|976|SeriousCraft|class|com.minedogg.seriouscraft.SeriousCraft
+   @|com\minedogg\seriouscraft\SeriousCraft.java|977|989|SERVER_PROXY|field|com.minedogg.seriouscraft.SeriousCraft|SERVER_PROXY
+   @|com\minedogg\seriouscraft\SeriousCraft.java|1009|1020|CommonProxy|class|com.minedogg.seriouscraft.proxy.CommonProxy
+   @|com\minedogg\seriouscraft\SeriousCraft.java|1021|1026|proxy|field|com.minedogg.seriouscraft.SeriousCraft|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1115|1120|event|param|com.minedogg.seriouscraft.SeriousCraft|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1048|1064|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1081|1088|preInit|method|com.minedogg.seriouscraft.SeriousCraft|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1089|1114|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1137|1143|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1144|1147|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1148|1155|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1250|1255|proxy|field|com.minedogg.seriouscraft.SeriousCraft|proxy
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1256|1263|preInit|method|com.minedogg.seriouscraft.proxy.IProxy|preInit|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1344|1349|event|param|com.minedogg.seriouscraft.SeriousCraft|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1283|1299|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1316|1320|init|method|com.minedogg.seriouscraft.SeriousCraft|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1321|1343|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1365|1371|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1372|1375|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1376|1383|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1474|1479|proxy|field|com.minedogg.seriouscraft.SeriousCraft|proxy
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1480|1484|init|method|com.minedogg.seriouscraft.proxy.IProxy|init|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1586|1591|event|param|com.minedogg.seriouscraft.SeriousCraft|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1517|1533|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1550|1558|postInit|method|com.minedogg.seriouscraft.SeriousCraft|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1559|1585|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1608|1614|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1615|1618|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1619|1626|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1722|1727|proxy|field|com.minedogg.seriouscraft.SeriousCraft|proxy
+      @|com\minedogg\seriouscraft\SeriousCraft.java|1728|1736|postInit|method|com.minedogg.seriouscraft.proxy.IProxy|postInit|()V
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.minedogg.seriouscraft.SeriousCraft
+endProcessing "com\minedogg\seriouscraft\SeriousCraft.java"
+
+startProcessing "com\minedogg\seriouscraft\handlers\ItemHandler.java" md5: ea12aaad7b08126921bd3c971a6d4ca1
+@|com\minedogg\seriouscraft\handlers\ItemHandler.java|8|42|com.minedogg.seriouscraft.handlers|package|com.minedogg.seriouscraft.handlers|(file)
+Class Start: com.minedogg.seriouscraft.handlers.ItemHandler
+   @|com\minedogg\seriouscraft\handlers\ItemHandler.java|631|653|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+   @|com\minedogg\seriouscraft\handlers\ItemHandler.java|667|678|ItemHandler|class|com.minedogg.seriouscraft.handlers.ItemHandler
+   @|com\minedogg\seriouscraft\handlers\ItemHandler.java|698|705|ModItem|class|com.minedogg.seriouscraft.items.ModItem
+   @|com\minedogg\seriouscraft\handlers\ItemHandler.java|698|705|ModItem|class|com.minedogg.seriouscraft.items.ModItem
+   @|com\minedogg\seriouscraft\handlers\ItemHandler.java|706|713|scSteel|field|com.minedogg.seriouscraft.handlers.ItemHandler|scSteel|
+   @|com\minedogg\seriouscraft\handlers\ItemHandler.java|720|727|ModItem|class|com.minedogg.seriouscraft.items.ModItem
+   @|com\minedogg\seriouscraft\handlers\ItemHandler.java|739|751|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\minedogg\seriouscraft\handlers\ItemHandler.java|752|761|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+   Method Start: init()V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|789|793|init|method|com.minedogg.seriouscraft.handlers.ItemHandler|init|()V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|802|808|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|809|812|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|813|820|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|851|863|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|864|875|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|876|881|Items|class|net.minecraft.init.Items
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|882|894|ROTTEN_FLESH|field|net.minecraft.init.Items|ROTTEN_FLESH
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|900|909|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|910|915|Items|class|net.minecraft.init.Items
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|916|920|BONE|field|net.minecraft.init.Items|BONE
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|935|941|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|942|945|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|946|953|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: init()V
+   Method Start: registerRenders()V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1013|1028|registerRenders|method|com.minedogg.seriouscraft.handlers.ItemHandler|registerRenders|()V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1037|1043|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1044|1047|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1048|1055|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1088|1102|registerRender|method|com.minedogg.seriouscraft.handlers.ItemHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1103|1110|scSteel|field|com.minedogg.seriouscraft.handlers.ItemHandler|scSteel
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1115|1121|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1122|1125|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1126|1133|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: registerRenders()V
+   Method Start: registerRender(Lnet/minecraft/item/Item;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1214|1218|item|param|com.minedogg.seriouscraft.handlers.ItemHandler|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1194|1208|registerRender|method|com.minedogg.seriouscraft.handlers.ItemHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1209|1213|Item|class|net.minecraft.item.Item
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1225|1231|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1232|1235|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1236|1243|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1285|1297|SeriousCraft|class|com.minedogg.seriouscraft.SeriousCraft
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1298|1303|MODID|field|com.minedogg.seriouscraft.SeriousCraft|MODID
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1312|1316|item|param|com.minedogg.seriouscraft.handlers.ItemHandler|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1317|1335|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1338|1347|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1356|1367|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1368|1398|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1399|1403|item|param|com.minedogg.seriouscraft.handlers.ItemHandler|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1412|1433|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1434|1446|SeriousCraft|class|com.minedogg.seriouscraft.SeriousCraft
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1447|1452|MODID|field|com.minedogg.seriouscraft.SeriousCraft|MODID
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1461|1465|item|param|com.minedogg.seriouscraft.handlers.ItemHandler|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1466|1484|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1487|1496|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+   Method End: registerRender(Lnet/minecraft/item/Item;)V
+   Method Start: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1588|1593|event|param|com.minedogg.seriouscraft.handlers.ItemHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1510|1524|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1545|1558|registerItems|method|com.minedogg.seriouscraft.handlers.ItemHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1559|1581|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1582|1586|Item|class|net.minecraft.item.Item
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1600|1606|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1607|1610|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1611|1618|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1649|1654|event|param|com.minedogg.seriouscraft.handlers.ItemHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1655|1666|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1669|1677|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1678|1685|scSteel|field|com.minedogg.seriouscraft.handlers.ItemHandler|scSteel
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1690|1696|System|class|java.lang.System
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1697|1700|out|field|java.lang.System|out
+      @|com\minedogg\seriouscraft\handlers\ItemHandler.java|1701|1708|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+Class End  : com.minedogg.seriouscraft.handlers.ItemHandler
+endProcessing "com\minedogg\seriouscraft\handlers\ItemHandler.java"
+
+startProcessing "com\minedogg\seriouscraft\handlers\package-info.java" md5: 093f5fd746462fcae3ec4ebc5639b300
+@|com\minedogg\seriouscraft\handlers\package-info.java|48|82|com.minedogg.seriouscraft.handlers|package|com.minedogg.seriouscraft.handlers|(file)
+endProcessing "com\minedogg\seriouscraft\handlers\package-info.java"
+
+startProcessing "com\minedogg\seriouscraft\items\ItemScItem.java" md5: 895d5cff17e8ec0226a896164ce2161b
+@|com\minedogg\seriouscraft\items\ItemScItem.java|8|39|com.minedogg.seriouscraft.items|package|com.minedogg.seriouscraft.items|(file)
+Class Start: com.minedogg.seriouscraft.items.ItemScItem
+   @|com\minedogg\seriouscraft\items\ItemScItem.java|103|113|ItemScItem|class|com.minedogg.seriouscraft.items.ItemScItem
+   @|com\minedogg\seriouscraft\items\ItemScItem.java|122|129|ModItem|class|com.minedogg.seriouscraft.items.ModItem
+   Method Start: ItemScItem(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V
+      @|com\minedogg\seriouscraft\items\ItemScItem.java|159|163|name|param|com.minedogg.seriouscraft.items.ItemScItem|ItemScItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V|name|0
+      @|com\minedogg\seriouscraft\items\ItemScItem.java|178|181|tab|param|com.minedogg.seriouscraft.items.ItemScItem|ItemScItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V|tab|1
+      @|com\minedogg\seriouscraft\items\ItemScItem.java|141|151|ItemScItem|method|com.minedogg.seriouscraft.items.ItemScItem|ItemScItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V
+      @|com\minedogg\seriouscraft\items\ItemScItem.java|152|158|String|class|java.lang.String
+      @|com\minedogg\seriouscraft\items\ItemScItem.java|165|177|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\minedogg\seriouscraft\items\ItemScItem.java|194|198|name|param|com.minedogg.seriouscraft.items.ItemScItem|ItemScItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V|name|0
+      @|com\minedogg\seriouscraft\items\ItemScItem.java|199|202|tab|param|com.minedogg.seriouscraft.items.ItemScItem|ItemScItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V|tab|1
+   Method End: ItemScItem(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V
+Class End  : com.minedogg.seriouscraft.items.ItemScItem
+endProcessing "com\minedogg\seriouscraft\items\ItemScItem.java"
+
+startProcessing "com\minedogg\seriouscraft\items\ModItem.java" md5: 99908a1d37404cf1494161745656a73d
+@|com\minedogg\seriouscraft\items\ModItem.java|8|39|com.minedogg.seriouscraft.items|package|com.minedogg.seriouscraft.items|(file)
+Class Start: com.minedogg.seriouscraft.items.ModItem
+   @|com\minedogg\seriouscraft\items\ModItem.java|135|142|ModItem|class|com.minedogg.seriouscraft.items.ModItem
+   @|com\minedogg\seriouscraft\items\ModItem.java|151|155|Item|class|net.minecraft.item.Item
+   Method Start: ModItem(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V
+      @|com\minedogg\seriouscraft\items\ModItem.java|181|185|name|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V|name|0
+      @|com\minedogg\seriouscraft\items\ModItem.java|200|203|tab|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V|tab|1
+      @|com\minedogg\seriouscraft\items\ModItem.java|166|173|ModItem|method|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V
+      @|com\minedogg\seriouscraft\items\ModItem.java|174|180|String|class|java.lang.String
+      @|com\minedogg\seriouscraft\items\ModItem.java|187|199|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\minedogg\seriouscraft\items\ModItem.java|210|228|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\minedogg\seriouscraft\items\ModItem.java|229|233|name|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V|name|0
+      @|com\minedogg\seriouscraft\items\ModItem.java|238|253|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\minedogg\seriouscraft\items\ModItem.java|254|258|name|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V|name|0
+      @|com\minedogg\seriouscraft\items\ModItem.java|263|277|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\minedogg\seriouscraft\items\ModItem.java|278|281|tab|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V|tab|1
+   Method End: ModItem(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;)V
+   Method Start: ModItem(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V
+      @|com\minedogg\seriouscraft\items\ModItem.java|312|316|name|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V|name|0
+      @|com\minedogg\seriouscraft\items\ModItem.java|331|334|tab|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V|tab|1
+      @|com\minedogg\seriouscraft\items\ModItem.java|340|349|stacksize|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V|stacksize|2
+      @|com\minedogg\seriouscraft\items\ModItem.java|297|304|ModItem|method|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V
+      @|com\minedogg\seriouscraft\items\ModItem.java|305|311|String|class|java.lang.String
+      @|com\minedogg\seriouscraft\items\ModItem.java|318|330|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\minedogg\seriouscraft\items\ModItem.java|356|374|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\minedogg\seriouscraft\items\ModItem.java|375|379|name|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V|name|0
+      @|com\minedogg\seriouscraft\items\ModItem.java|384|399|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\minedogg\seriouscraft\items\ModItem.java|400|404|name|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V|name|0
+      @|com\minedogg\seriouscraft\items\ModItem.java|409|423|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\minedogg\seriouscraft\items\ModItem.java|424|427|tab|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V|tab|1
+      @|com\minedogg\seriouscraft\items\ModItem.java|432|447|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|com\minedogg\seriouscraft\items\ModItem.java|448|457|stacksize|param|com.minedogg.seriouscraft.items.ModItem|ModItem|(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V|stacksize|2
+   Method End: ModItem(Ljava/lang/String;Lnet/minecraft/creativetab/CreativeTabs;I)V
+Class End  : com.minedogg.seriouscraft.items.ModItem
+endProcessing "com\minedogg\seriouscraft\items\ModItem.java"
+
+startProcessing "com\minedogg\seriouscraft\items\package-info.java" md5: bfeb0a67a70ab433cf4038905a7b92f2
+@|com\minedogg\seriouscraft\items\package-info.java|48|79|com.minedogg.seriouscraft.items|package|com.minedogg.seriouscraft.items|(file)
+endProcessing "com\minedogg\seriouscraft\items\package-info.java"
+
+startProcessing "com\minedogg\seriouscraft\proxy\ClientProxy.java" md5: 066563596c355158d3b1d772265b7644
+@|com\minedogg\seriouscraft\proxy\ClientProxy.java|8|39|com.minedogg.seriouscraft.proxy|package|com.minedogg.seriouscraft.proxy|(file)
+Class Start: com.minedogg.seriouscraft.proxy.ClientProxy
+   @|com\minedogg\seriouscraft\proxy\ClientProxy.java|111|122|ClientProxy|class|com.minedogg.seriouscraft.proxy.ClientProxy
+   @|com\minedogg\seriouscraft\proxy\ClientProxy.java|131|142|CommonProxy|class|com.minedogg.seriouscraft.proxy.CommonProxy
+   Method Start: init()V
+      @|com\minedogg\seriouscraft\proxy\ClientProxy.java|159|163|init|method|com.minedogg.seriouscraft.proxy.IProxy|init|()V
+      @|com\minedogg\seriouscraft\proxy\ClientProxy.java|171|182|ItemHandler|class|com.minedogg.seriouscraft.handlers.ItemHandler
+      @|com\minedogg\seriouscraft\proxy\ClientProxy.java|183|198|registerRenders|method|com.minedogg.seriouscraft.handlers.ItemHandler|registerRenders|()V
+   Method End: init()V
+Class End  : com.minedogg.seriouscraft.proxy.ClientProxy
+endProcessing "com\minedogg\seriouscraft\proxy\ClientProxy.java"
+
+startProcessing "com\minedogg\seriouscraft\proxy\CommonProxy.java" md5: 0e8c50762152623775ac15e50c33f749
+@|com\minedogg\seriouscraft\proxy\CommonProxy.java|8|39|com.minedogg.seriouscraft.proxy|package|com.minedogg.seriouscraft.proxy|(file)
+Class Start: com.minedogg.seriouscraft.proxy.CommonProxy
+   @|com\minedogg\seriouscraft\proxy\CommonProxy.java|111|122|CommonProxy|class|com.minedogg.seriouscraft.proxy.CommonProxy
+   @|com\minedogg\seriouscraft\proxy\CommonProxy.java|134|140|IProxy|class|com.minedogg.seriouscraft.proxy.IProxy
+   Method Start: preInit()V
+      @|com\minedogg\seriouscraft\proxy\CommonProxy.java|157|164|preInit|method|com.minedogg.seriouscraft.proxy.IProxy|preInit|()V
+      @|com\minedogg\seriouscraft\proxy\CommonProxy.java|172|183|ItemHandler|class|com.minedogg.seriouscraft.handlers.ItemHandler
+      @|com\minedogg\seriouscraft\proxy\CommonProxy.java|184|188|init|method|com.minedogg.seriouscraft.handlers.ItemHandler|init|()V
+   Method End: preInit()V
+   Method Start: init()V
+      @|com\minedogg\seriouscraft\proxy\CommonProxy.java|210|214|init|method|com.minedogg.seriouscraft.proxy.IProxy|init|()V
+   Method End: init()V
+   Method Start: postInit()V
+      @|com\minedogg\seriouscraft\proxy\CommonProxy.java|240|248|postInit|method|com.minedogg.seriouscraft.proxy.IProxy|postInit|()V
+   Method End: postInit()V
+Class End  : com.minedogg.seriouscraft.proxy.CommonProxy
+endProcessing "com\minedogg\seriouscraft\proxy\CommonProxy.java"
+
+startProcessing "com\minedogg\seriouscraft\proxy\IProxy.java" md5: 0e19d4ea2592a5f7239184ff5c6eec2a
+@|com\minedogg\seriouscraft\proxy\IProxy.java|8|39|com.minedogg.seriouscraft.proxy|package|com.minedogg.seriouscraft.proxy|(file)
+Class Start: com.minedogg.seriouscraft.proxy.IProxy
+   @|com\minedogg\seriouscraft\proxy\IProxy.java|59|65|IProxy|class|com.minedogg.seriouscraft.proxy.IProxy
+   Method Start: preInit()V
+      @|com\minedogg\seriouscraft\proxy\IProxy.java|83|90|preInit|method|com.minedogg.seriouscraft.proxy.IProxy|preInit|()V
+   Method End: preInit()V
+   Method Start: init()V
+      @|com\minedogg\seriouscraft\proxy\IProxy.java|107|111|init|method|com.minedogg.seriouscraft.proxy.IProxy|init|()V
+   Method End: init()V
+   Method Start: postInit()V
+      @|com\minedogg\seriouscraft\proxy\IProxy.java|128|136|postInit|method|com.minedogg.seriouscraft.proxy.IProxy|postInit|()V
+   Method End: postInit()V
+Class End  : com.minedogg.seriouscraft.proxy.IProxy
+endProcessing "com\minedogg\seriouscraft\proxy\IProxy.java"
+
+startProcessing "com\minedogg\seriouscraft\proxy\package-info.java" md5: 6b3c973d57ddb9d300a87dd698c6fb40
+@|com\minedogg\seriouscraft\proxy\package-info.java|48|79|com.minedogg.seriouscraft.proxy|package|com.minedogg.seriouscraft.proxy|(file)
+endProcessing "com\minedogg\seriouscraft\proxy\package-info.java"
+
