@@ -17,3 +17,7 @@ hs_err_pid*
 # logs
 *.log
 *.gz
+
+# dirs
+\run
+\build
