@@ -33,7 +33,7 @@ public class ItemHandler
 		System.out.println("#SC - registering "+sc_steel.getUnlocalizedName());
 		registerRender(sc_steel);
 		System.out.println("#SC - registering "+sc_carbon.getUnlocalizedName());
-		registerRender(sc_carbon);
+		//registerRender(sc_carbon);
 		System.out.println("#SC - registering renders done");
 	}
 	
