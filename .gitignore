@@ -19,5 +19,6 @@ hs_err_pid*
 *.gz
 
 # dirs
-\run
-\build
+/bin
+/build
+/run
