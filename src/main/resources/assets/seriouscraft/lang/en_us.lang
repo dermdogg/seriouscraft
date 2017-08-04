@@ -1,4 +1,7 @@
 item.sc_steel.name=Steel
 item.sc_steel_ingot.name=Steel Ingot
 item.sc_carbon.name=Carbon
-item.sc_herb_seeds.name=Herb Seeds
+item.sc_super_seed_wheat.name=Wheat Seed Bag
+item.sc_super_seed_carrot.name=Carrot Seed Bag
+item.sc_super_seed_potato.name=Potato Seed Bag
+item.sc_super_seed_beetroot.name=Beetroot Seed Bag

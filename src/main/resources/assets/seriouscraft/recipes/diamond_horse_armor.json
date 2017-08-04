@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "DDD",
+    "LLL"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:lead"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "L" : {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_horse_armor"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "III",
+    "LLL"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:lead"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "L" : {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_horse_armor"
+  }
+}

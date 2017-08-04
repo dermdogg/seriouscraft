@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "GGG",
+    "LLL"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:lead"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "L" : {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_horse_armor"
+  }
+}

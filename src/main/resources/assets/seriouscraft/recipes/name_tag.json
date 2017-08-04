@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    " GP",
+    " PP"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:lead"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "P" : {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "minecraft:name_tag"
+  }
+}
