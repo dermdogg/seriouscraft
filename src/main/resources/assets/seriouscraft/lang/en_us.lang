@@ -1,6 +1,10 @@
+item.sc_token.name=AWESOME
 item.sc_steel.name=Steel
-item.sc_steel_ingot.name=Steel Ingot
 item.sc_carbon.name=Carbon
+item.sc_steel_ingot.name=Steel Ingot
+item.sc_diorite_dust.name=Diorite Dust
+item.sc_acid.name=Acid
+item.sc_sulphur.name=Sulphur
 item.sc_super_seed_wheat.name=Wheat Seed Bag
 item.sc_super_seed_carrot.name=Carrot Seed Bag
 item.sc_super_seed_potato.name=Potato Seed Bag

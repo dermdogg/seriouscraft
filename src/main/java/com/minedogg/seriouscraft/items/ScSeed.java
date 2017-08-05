@@ -17,13 +17,13 @@ public class ScSeed extends ItemSeeds
 {    
 	private final Block pCrops;
 	
-	public ScSeed(String name, Block crops, Block soil) 
+	public ScSeed(String name, Block crops, Block soil,  CreativeTabs tab) 
 	{
 		super(crops, soil);
 		pCrops = crops;
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(tab);
 	}
 	
 	

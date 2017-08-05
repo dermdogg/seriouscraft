@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:stone",
+      "data": 1
+    },
+    "D": {
+      "item": "minecraft:stone",
+      "data": 3
+    }
+  },
+  "result": {
+    "item": "seriouscraft:sc_diorite_dust",
+     "count" : 8
+  }
+}

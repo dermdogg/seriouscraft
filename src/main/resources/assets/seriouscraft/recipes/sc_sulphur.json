@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DAD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "seriouscraft:sc_diorite_dust"
+    },
+    "A": {
+      "item": "seriouscraft:sc_acid"
+    }
+  },
+  "result": {
+    "item": "seriouscraft:sc_sulphur"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "CCC",
+    "FFF"
+  ],
+  "key": {
+    "S": {
+      "item": "seriouscraft:sc_sulphur"
+    },
+    "C": {
+       "item": "minecraft:coal",
+        "data": 32767
+    },
+    "F": {
+       "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "minecraft:gunpowder",
+     "count" : 3
+  }
+}

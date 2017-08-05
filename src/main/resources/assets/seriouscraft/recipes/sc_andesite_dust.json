@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:stone",
+      "data": 1
+    },
+    "A": {
+      "item": "minecraft:stone",
+      "data": 5
+    }
+  },
+  "result": {
+    "item": "seriouscraft:sc_andesite_dust",
+     "count" : 8
+  }
+}
