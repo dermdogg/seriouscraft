@@ -34,6 +34,7 @@ public class SeriousCraft
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) 
     {
+    	
         System.out.println("\n!!!!!!!!!!!!!!!!!!!!!!!\n<< --- --- PRE-INIT --- --->>\n!!!!!!!!!!!!!!!!!!!!!!!");
         proxy.preInit();
     }
@@ -46,7 +47,8 @@ public class SeriousCraft
         GameRegistry.addSmelting(ItemHandler.sc_steel, new ItemStack(ItemHandler.sc_steel_ingot, 1), 0.1f);
         ItemStack bmeal = new ItemStack(Items.DYE,1);
         bmeal.setItemDamage(15);
-        BrewingRecipeRegistry.addRecipe(new ItemStack(Items.POTIONITEM,1), bmeal, new ItemStack(ItemHandler.sc_acid,1));
+        BrewingRecipeRegistry.addRecipe(new ItemStack(Items.POTIONITEM,1), bmeal, new ItemStack(ItemHandler.sc_base,1));
+        BrewingRecipeRegistry.addRecipe(new ItemStack(Items.POTIONITEM,1), new ItemStack(Items.APPLE,1), new ItemStack(ItemHandler.sc_acid,1));
         proxy.init();    
         
     }

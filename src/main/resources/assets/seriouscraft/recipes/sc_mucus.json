@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "seriouscraft:sc_andesite_dust"
+    },
+    "B": {
+      "item": "seriouscraft:sc_base"
+    }
+  },
+  "result": {
+    "item": "seriouscraft:sc_mucus"
+  }
+}

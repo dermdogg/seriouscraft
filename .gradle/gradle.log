@@ -13,7 +13,7 @@
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava UP-TO-DATE
+:sourceMainJava
 :compileJava
 :processResources
 :classes
@@ -40,4 +40,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 8.904 secs
+Total time: 12.254 secs
